@@ -1,0 +1,43 @@
+body{
+   background-color: aliceblue;
+}
+.container{
+   display: flex;
+   border: solid 2px rgba(0, 0, 0, 0.445);
+   flex: 1;
+   flex-direction: row;
+   
+}
+#div1{
+   text-align: center;
+font-size: 14pt;
+color: rgb(0, 0, 0);
+min-width: 33.33%;
+background-color: #0d9aec;
+}
+#div2{
+   text-align: center;
+font-size: 16pt;
+color: rgb(0, 0, 10);
+min-width: 33.33%;
+background-color: rgb(240, 160, 13);
+}
+#div3{
+   text-align: center;
+font-size: 18pt;
+color: rgb(255, 255, 255);
+min-width: 33.33%;
+background-color: #12205c;
+}
+#button1{
+   background-color: rgba(128, 128, 128, 0.555);
+}
+div:hover{
+   font-weight: bold;
+}
+#user_input{
+   padding: .5rem;
+}
+#hide_section{
+   padding: .5rem;
+}

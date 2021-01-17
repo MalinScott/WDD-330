@@ -1,0 +1,85 @@
+body{
+  background-color: #5b5e6121;
+}
+
+.jumbotron {
+  background: #0065BD;
+  color: white;
+  padding-bottom: 80px; 
+}
+
+.jumbotron .btn-primary {
+  background: #845ac7;
+  border-color: #845ac7; 
+}
+
+.jumbotron .btn-primary:hover {
+  background: #7646c1; 
+}
+  
+.jumbotron p {
+  color: #d9ccee;
+  max-width: 75%;
+  margin: 1em auto 2em; 
+}
+  
+.navbar + .jumbotron {
+  margin-top: -20px; 
+
+}
+  
+.jumbotron .lang-logo {
+  display: block;
+  background: #B01302;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 2px solid white; 
+}
+.jumbotron .lang-logo img {
+  max-width: 100%; 
+}
+
+
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: stretch;
+  margin-left: 5rem;
+  
+}
+
+.center_txt{
+  text-align: center;
+}
+hr.hr_top{
+border-top: 5px solid #0065BD;
+width: 80%;
+margin: 0 auto;
+}
+hr.hr_mid{
+  border-top: 5px solid #000000a4;
+  width: 50%;
+  margin: 0 auto;
+  }
+#div_sports{
+  justify-content: left;
+  margin-top: 1rem;
+}
+.section_title{
+  margin-left: 5rem;
+  margin-top: 15rem;
+}
+.middle{
+  margin-top: 20%;
+  margin-bottom: 10%;
+}

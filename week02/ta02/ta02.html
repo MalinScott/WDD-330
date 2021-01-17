@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+​
+<body>
+​
+​
+    <p>Click the button to get the text that is displayed on the button.</p>
+    <input type="text" id="txt1" value="type here">
+    <input type="text" id="txt2" value="type here">
+    <input type="button" id="myBtn" onclick="myFunction()" value="Try it">
+    <input type="button" id="btnAdd" onclick="doAction(doAddition);" value="+">
+    <input type="button" id="btnSub" onclick="doAction(doSubtraction);" value="-">
+    <input type="button" id="btnMul" onclick="doAction(doMultiply);" value="*">
+​
+    <p id="demo"></p>
+​
+    <div id="user_input">
+    </div>
+​
+    <script>        
+        function doAddition(value1, value2)
+        {
+            return value1+value2;
+        }
+​
+        function doSubtraction(value1, value2)
+        {
+            return value1-value2;
+        }
+​
+        function doMultiply(value1, value2)
+        {
+            return value1*value2;
+        }
+​
+​
+        function doAction(action) {
+            let text1 = document.getElementById("txt1").value;
+            let text2 = document.getElementById("txt2").value;
+            let result = 0;
+​
+            try {
+                let value1 = parseInt(text1);
+                let value2 = parseInt(text2);
+                result = action(value1, value2);                
+                alert(result);
+            } catch {
+                result = 0;
+            }
+            document.getElementById("user_input").innerText = result;
+        }
+​
+​
+        function sumOfN(argN) {
+            let SumX = 0;
+            if (argN != 0) {
+                SumX = parseInt((argN * (argN + 1) / 2));
+            }
+            if (argN < 0) {
+                let temp = -argN;
+                SumX = parseInt(temp * (temp + 1) / 2 * (-1));
+            }
+​
+            alert("Sum of N is: " + SumX);
+            return x;
+        }
+​
+        function myFunction() {
+            var x = document.getElementById("txt1").value;
+            document.getElementById("user_input").innerHTML = sumOfN(parseInt(x));
+        }
+    </script>
+​
+</body>
+​
+</html>

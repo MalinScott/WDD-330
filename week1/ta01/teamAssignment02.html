@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Team Assignment 02</title>
+   <link rel="stylesheet" type="text/css" href="ta02.css">
+   <script src="./ta02.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+   <section class="container">
+      <div id="div1">Section 1</div>
+      <div id="div2">Section 2</div>
+      <div id="div3">Section 3</div>
+
+   </section>
+   <section id="user_input">
+      Change Section 1 Background Color <br>
+      <input id="user_text" type="text" placeholder="#0d9aec"> <br>
+      <input id="bttn_color" type="button" onclick="updateDiv()" value="Change Color">
+      <input type="button" onclick="sendAlert()" value="Click Me!">
+      <br>
+      <section id="hide_section">
+         Make Section 3 Dissapear! <br>
+         <button id="hide">Dissapear</button>
+         <button id="show">Appear</button>
+
+      </section>
+
+   </section>
+</body>
+<script> hideDiv()</script>
+</html>
