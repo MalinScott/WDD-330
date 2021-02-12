@@ -1,109 +1,133 @@
-body{
+body {
    background-color: #121212;
 }
 
-#header_div{
+#header_div {
    color: #ffffff;
+   text-align: center;
 }
 
-#main_div{
-   background-color: #ffffff13;
-   width: 50%;
+#form_div {
+   background-color: #ffffff09;
+   width: 35%;
+   margin-left: 35%;
+   box-shadow: 1px 2px 3px #ffffff21;
    border-style: solid;
-   border-color:  rgba(255, 255, 255, 0.144);
+   border-color: #03dac53f;
+   border-width: 1px;
+   padding: 5px;
+}
+
+#main_div {
+   background-color: #ffffff13;
+   width: 99%;
+   border-style: solid;
+   border-color: rgba(255, 255, 255, 0.144);
 }
 
 ul {
- list-style-type: none;
- padding: 0;
-} 
+   list-style-type: none;
+   padding: 0;
+}
 
 li {
- cursor: pointer;
- position: relative;
- padding: 12px 8px 12px 40px;
- background: #bb86fc;
- font-size: 14px;
- margin: 1%;
-font-weight: bold;
+   cursor: pointer;
+   position: relative;
+   padding: 12px 8px 12px 40px;
+   background: rgb(163, 15, 231);
+   font-size: 14px;
+   margin: 1%;
+   font-weight: bold;
+   box-shadow: 5px 20px 20px #3f008bad inset;
+}
+li:hover{
+   background-color: #fce300cc;
 }
 
 .delete {
- position: absolute;
- right: 10px;
- top: 0;
- padding: 12px 8px 12px 16px;
- font-size: 20px;
- font-weight: bold;
+   position: absolute;
+   right: 10px;
+   top: 0;
+   padding: 12px 8px 12px 16px;
+   font-size: 20px;
+   font-weight: bolder;
+   color: #121212;
 }
 
 .delete:hover {
- background-color: #f44336a1;
- color: white;
-
+   
+   color: rgb(255, 0, 0);
 }
 
 .completed {
- cursor: pointer;
- position: relative;
- padding: 12px 8px 12px 40px;
- background: rgba(35, 255, 15, 0.315);
- font-size: 14px;
- transition: 0.2s;
- text-decoration: line-through;
-
+   cursor: pointer;
+   position: relative;
+   padding: 12px 8px 12px 40px;
+   background: rgba(35, 255, 15, 0.315);
+   font-size: 14px;
+   transition: 0.2s;
+   color: #00000071;
+   box-shadow: 5px 20px 20px rgba(43, 255, 0, 0.438) inset;
 }
 
-#bottom_div{
- text-align:center;
- background: rgba(238, 238, 238, 0.281);
- width: 50%;
- color: #ffffff;
+#bottom_div {
+   text-align: center;
+   background: rgba(238, 238, 238, 0.281);
+   width: 99%;
+   color: #ffffff;
+   border-radius: 1%;
 }
 
 .filter {
- padding-top: 12px;
- padding-bottom: 12px;
- font-size: 10px;
- margin-left: 15px;
- width: 60px;
- height: 40px;
- background: #03DAC5;
- font-weight: bolder;
- box-shadow: 5px 20px 20px rgba(0, 17, 255, 0.438) inset;
- text-align: auto;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   font-size: 10px;
+   margin-left: 15px;
+   width: 60px;
+   height: 40px;
+   background: #03DAC5;
+   font-weight: bolder;
+   box-shadow: 5px 20px 20px rgba(0, 17, 255, 0.438) inset;
+   text-align: auto;
+   border-radius: 50%;
 }
-.filter:hover{
+
+.filter:hover {
    background: #ffffff;
 }
 
-#taskList{
+#taskList {
    width: 105%;
 }
 
-#list_div{
- padding-right: 10px;
- font-size: 10px;
- padding-left:0;
- margin-right:20px;
-
-}
-.input{
- height: 25px;
- size: 30;
- background: rgba(238, 238, 238, 0.87);
-}
-#addTask{
- height:25px;
- width:25px;
- background-color: #03DAC5;;
- box-shadow: 5px 20px 20px rgba(0, 17, 255, 0.438) inset;
+#list_div {
+   padding-right: 10px;
+   font-size: 10px;
+   padding-left: 0;
+   margin-right: 20px;
 }
 
-#addTask:hover{
+.input {
+   height: 25px;
+   size: 30;
+   background: rgba(238, 238, 238, 0.87);
+}
+
+#addTask {
+   height: 25px;
+   width: 25px;
+   background-color: #03DAC5;
+   ;
+   box-shadow: 5px 20px 20px rgba(0, 17, 255, 0.438) inset;
+   border-radius: 50%;
+}
+
+#addTask:hover {
    background: #ffffff;
    font-weight: bolder;
 }
-#newTask_div{
+
+#newTask_div {
    margin-top: 1%;
+   color: #ffffff;
 }
